@@ -25,19 +25,56 @@
     <header>
       <nav>
         <div class="container">
-          <div class="row d-flex justify-content-between align-items-center">
-            <div class="col-3">
+          <div class="row navbar1  d-none d-lg-block justify-content-between align-items-center">
+            <div class="col-3 ">
               <a href="#!" class="logo">Street88</a>
             </div>
             <div class="col-5">
               <ul>
-                <li class="active"><a href="#!">Корзина <span>2</span></a></li>
+                <li class="active d-none"><a href="#!">Корзина <span>2</span></a></li>
                 <li><a href="#!">Меню</a></li>
                 <li><a href="#!">О нас</a></li>
                 <li><a href="#!">Контакты</a></li>
               </ul>
             </div>
           </div>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container-fluid">
+              <a class="logo" href="#">Street88</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Корзина</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Меню
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">О нас</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Контакты</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
         </div>
       </nav>
 
@@ -60,7 +97,7 @@
     <section class="section1">
       <div class="container">
         <div class="row">
-          <div class="col-7">
+          <div class="col-12 col-lg-7">
             <ul class="list_group">
               <li class="list_item"><a href="#!">Гамбургеры</a> </li>
               <li class="list_item"><a href="#!">Хот доги</a> </li>
@@ -71,7 +108,7 @@
           </div>
         </div>
         <div class="row top_burger">
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="menu">
               <div class="section_img">
                 <img src="./img/photo.jpg" alt="jpg">
@@ -82,7 +119,7 @@
               <button class="section_btn">14500</button>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="menu">
               <div class="section_img">
                 <img src="./img/photo.jpg" alt="jpg">
@@ -93,7 +130,7 @@
               <button class="section_btn">14500</button>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 d-none d-lg-block">
             <div class="menu">
               <div class="section_img">
                 <img src="./img/photo.jpg" alt="jpg">
@@ -106,19 +143,19 @@
           </div>
         </div>
         <div class="row text_burger">
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <h3 class="section_text">С говядиной</h3>
             <p class="section_text_bottom">
               Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом
             </p>
           </div>
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <h3 class="section_text">С говядиной</h3>
             <p class="section_text_bottom">
               Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом
             </p>
           </div>
-          <div class="col-4">
+          <div class="col-4 d-none d-lg-block">
             <h3 class="section_text">С говядиной</h3>
             <p class="section_text_bottom">
               Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом
@@ -126,7 +163,7 @@
           </div>
         </div>
         <div class="row top_burger">
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="menu">
               <div class="section_img">
                 <img src="./img/photo.jpg" alt="jpg">
@@ -137,7 +174,7 @@
               <button class="section_btn">14500</button>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <div class="menu">
               <div class="section_img">
                 <img src="./img/photo.jpg" alt="jpg">
@@ -148,7 +185,7 @@
               <button class="section_btn">14500</button>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 d-none d-lg-block">
             <div class="menu">
               <div class="section_img">
                 <img src="./img/photo.jpg" alt="jpg">
@@ -161,19 +198,19 @@
           </div>
         </div>
         <div class="row text_burger">
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <h3 class="section_text">С говядиной</h3>
             <p class="section_text_bottom">
               Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом
             </p>
           </div>
-          <div class="col-4">
+          <div class="col-6 col-lg-4">
             <h3 class="section_text">С говядиной</h3>
             <p class="section_text_bottom">
               Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом
             </p>
           </div>
-          <div class="col-4">
+          <div class="col-4 d-none d-lg-block">
             <h3 class="section_text">С говядиной</h3>
             <p class="section_text_bottom">
               Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом
@@ -215,17 +252,17 @@
     <footer>
       <div class="container">
         <div class="row logotip d-flex justify-content-between align-items-center">
-          <div class="col-2">
+          <div class="col-4 col-lg-2">
             <a href="#!" class="logo">Street88</a>
           </div>
-          <div class="col-3">
+          <div class="col-5 col-md-4 col-lg-3">
             <p class="number1">+998 90 980 77 23</p>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-8">
+          <div class="col-12 col-lg-8">
             <ul>
               <li><a href="#!">Меню</a></li>
               <li><a href="#!">О нас</a></li>
@@ -235,7 +272,7 @@
               <li><a href="#!">Telegram Bot</a></li>
             </ul>
           </div>
-          <div class="col-5">
+          <div class="col-10 col-lg-5">
             <p class="footer_text">Сайт разработан в целях обучения © PROWEB 2019</p>
           </div>
         </div>
